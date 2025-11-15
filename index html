@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Property Finder - Home</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Finder | Home</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
-  <!-- Navbar -->
-  <!-- Hero Section -->
-  <!-- List Property -->
-  <!-- Footer -->
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <h2 class="logo">PropertyFinder</h2>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Layanan</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Temukan Hunian Impian Anda</h1>
+      <p>Website ini dibuat sebagai proyek UTS Pemrograman Web 2025 yang mengusung tema
+         pencarian properti menggunakan HTML + Tailwind + Custom CSS.</p>
+      <a href="services.html" class="btn-primary">Jelajahi Properti</a>
+    </div>
+  </section>
+
+  <!-- PROPERTY LIST -->
+  <section class="list">
+    <div class="container">
+      <h2 class="section-title">Rekomendasi Properti</h2>
+
+      <div class="grid">
+        <div class="card">
+          <img src="assets/img/rumah1.jpg" alt="Properti 1" />
+          <h3>Rumah Minimalis</h3>
+          <p>Lokasi: Jakarta Selatan</p>
+          <span class="price">Rp850.000.000</span>
+        </div>
+
+        <div class="card">
+          <img src="assets/img/rumah2.jpg" alt="Properti 2" />
+          <h3>Apartemen Modern</h3>
+          <p>Lokasi: Depok</p>
+          <span class="price">Rp500.000.000</span>
+        </div>
+
+        <div class="card">
+          <img src="assets/img/rumah3.jpg" alt="Properti 3" />
+          <h3>Rumah Keluarga</h3>
+          <p>Lokasi: Bekasi</p>
+          <span class="price">Rp750.000.000</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 UTS Pemweb | Website Property Finder</p>
+  </footer>
 
 <script src="assets/js/script.js"></script>
 </body>
